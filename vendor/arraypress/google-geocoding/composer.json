@@ -1,0 +1,45 @@
+{
+  "name": "arraypress/google-geocoding",
+  "version": "1.0.0",
+  "description": "A PHP library for integrating with the Google Geocoding API in WordPress, providing address to coordinate conversion and structured address information. Features WordPress transient caching and WP_Error support.",
+  "type": "library",
+  "license": "GPL-2.0-or-later",
+  "homepage": "https://github.com/arraypress/google-geocoding/",
+  "authors": [
+    {
+      "name": "David Sherlock",
+      "homepage": "https://arraypress.com/"
+    }
+  ],
+  "require": {
+    "php": ">=7.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "ArrayPress\\Google\\Geocoding\\": "src/"
+    }
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "sort-packages": true
+  },
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://github.com/arraypress/google-geocoding/issues",
+    "source": "https://github.com/arraypress/google-geocoding"
+  },
+  "keywords": [
+    "geocoding",
+    "reverse-geocoding",
+    "google-maps",
+    "coordinates",
+    "address-validation",
+    "location-data",
+    "wordpress",
+    "latitude-longitude",
+    "address-components",
+    "geolocation",
+    "mapping",
+    "address-parsing"
+  ]
+}

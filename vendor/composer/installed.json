@@ -1,0 +1,65 @@
+{
+    "packages": [
+        {
+            "name": "arraypress/google-geocoding",
+            "version": "dev-main",
+            "version_normalized": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/arraypress/google-geocoding.git",
+                "reference": "9d67fe0bb4e016f1dddd6e988f9b7e2caf70e225"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/arraypress/google-geocoding/zipball/9d67fe0bb4e016f1dddd6e988f9b7e2caf70e225",
+                "reference": "9d67fe0bb4e016f1dddd6e988f9b7e2caf70e225",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.4"
+            },
+            "time": "2024-12-16T16:22:22+00:00",
+            "default-branch": true,
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "ArrayPress\\Google\\Geocoding\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "David Sherlock",
+                    "homepage": "https://arraypress.com/"
+                }
+            ],
+            "description": "A PHP library for integrating with the Google Geocoding API in WordPress, providing address to coordinate conversion and structured address information. Features WordPress transient caching and WP_Error support.",
+            "homepage": "https://github.com/arraypress/google-geocoding/",
+            "keywords": [
+                "address-components",
+                "address-parsing",
+                "address-validation",
+                "coordinates",
+                "geocoding",
+                "geolocation",
+                "google-maps",
+                "latitude-longitude",
+                "location-data",
+                "mapping",
+                "reverse-geocoding",
+                "wordpress"
+            ],
+            "support": {
+                "issues": "https://github.com/arraypress/google-geocoding/issues",
+                "source": "https://github.com/arraypress/google-geocoding"
+            },
+            "install-path": "../arraypress/google-geocoding"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}

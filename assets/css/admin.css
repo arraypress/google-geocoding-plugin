@@ -1,0 +1,85 @@
+/* Admin Styles for Geocoding Test Plugin */
+
+/* Form Validation Styles */
+.geocoding-test input.validation-error {
+    border-color: #cc1818;
+    box-shadow: 0 0 2px rgba(204, 24, 24, 0.8);
+}
+
+.geocoding-test input.validation-error:focus {
+    border-color: #cc1818;
+    box-shadow: 0 0 2px rgba(204, 24, 24, 0.8);
+}
+
+.geocoding-test .button.copy-coordinates,
+.geocoding-test .button.use-location {
+    margin-left: 8px;
+}
+
+.geocoding-test .geocoding-test-container {
+    display: flex;
+    gap: 2rem;
+    margin: 1.5rem 0;
+}
+
+.geocoding-test .geocoding-test-section {
+    background: #fff;
+    border: 1px solid #ccd0d4;
+    border-radius: 4px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    flex: 1;
+}
+
+.geocoding-test .geocoding-form .form-table {
+    margin-top: 0;
+}
+
+.geocoding-test .geocoding-form .submit {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.geocoding-test .address-components {
+    margin: 0;
+}
+
+.geocoding-test .address-components dt {
+    font-weight: bold;
+    float: left;
+    clear: left;
+    margin-right: 0.5rem;
+}
+
+.geocoding-test .address-components dd {
+    margin: 0 0 0.5rem 0;
+}
+
+.geocoding-test table.widefat {
+    margin: 1rem 0;
+    border: 1px solid #ccd0d4;
+    box-shadow: none;
+}
+
+.geocoding-test table.widefat th {
+    width: 200px;
+}
+
+.geocoding-test .description {
+    margin: 0.5rem 0;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 782px) {
+    .geocoding-test .geocoding-test-container {
+        flex-direction: column;
+    }
+
+    .geocoding-test .geocoding-test-section {
+        width: 100%;
+    }
+
+    .geocoding-test table.widefat th {
+        width: auto;
+    }
+}
